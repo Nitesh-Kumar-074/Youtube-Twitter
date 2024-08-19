@@ -1,0 +1,21 @@
+axios.post => 201 Created: This is the most common status code for a successful POST request, indicating that a new resource has been created.
+
+
+axios.get => 200 OK: This indicates that the request has succeeded and the server has returned the requested resource.
+
+
+
+axios.patch => 200 OK: Indicates that the request has succeeded and the resource has been updated.
+204 No Content: Indicates that the request has succeeded but there is no content to send in the response body.
+
+
+axios.delete => 200 OK: Indicates that the request has succeeded and the resource has been deleted.
+204 No Content: Indicates that the request has succeeded but there is no content to send in the response body.
+
+
+
+ERRORS :- 400 Bad Request: The server could not understand the request due to invalid syntax.
+401 Unauthorized: The client must authenticate itself to get the requested response.
+403 Forbidden: The client does not have access rights to the content.
+404 Not Found: The server can not find the requested resource.
+500 Internal Server Error: The server has encountered a situation it doesn’t know how to handle.

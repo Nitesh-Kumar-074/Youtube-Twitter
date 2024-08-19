@@ -1,0 +1,84 @@
+/* Container for the Video Overview */
+.video-container {
+       background-color: #ffe4e1; /* Light pink background */
+       border: 2px solid #ff69b4; /* Hot pink border */
+       border-radius: 15px;
+       margin: 30px;
+       padding: 20px;
+       box-shadow: 0 10px 20px rgba(255, 105, 180, 0.3);
+       transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+     }
+     
+     /* Hover effect for the container */
+     .video-container:hover {
+       transform: translateY(-5px);
+       box-shadow: 0 15px 30px rgba(255, 105, 180, 0.4);
+     }
+     
+     /* Header section containing the thumbnail and title */
+     .video-header {
+       display: flex;
+       align-items: center;
+       margin-bottom: 20px;
+     }
+     
+     /* Thumbnail image styling */
+     .video-thumbnail {
+       width: 70px;
+       height: 70px;
+       border-radius: 10px;
+       margin-right: 20px;
+     }
+     
+     /* Title styling */
+     .video-title {
+       font-size: 1.5rem;
+       color: #ff1493; /* Deep pink */
+       font-family: 'Poppins', sans-serif;
+       font-weight: bold;
+     }
+     
+     /* Actions container for buttons */
+     .video-actions {
+       display: flex;
+       gap: 15px;
+     }
+     
+     /* Button styling */
+     button {
+       padding: 10px 20px;
+       border: none;
+       border-radius: 8px;
+       font-size: 1rem;
+       cursor: pointer;
+       transition: background-color 0.3s ease;
+       font-family: 'Poppins', sans-serif; /* Modern font */
+     }
+     
+     .like-button {
+       background-color: #ff69b4; /* Hot pink */
+       color: white;
+     }
+     
+     .like-button:hover {
+       background-color: #ff1493; /* Deep pink on hover */
+     }
+     
+     .comment-button {
+       background-color: #ffb6c1; /* Light pink */
+       color: black;
+     }
+     
+     .comment-button:hover {
+       background-color: #ff69b4; /* Hot pink on hover */
+     }
+     
+     .delete-button {
+       background-color: #ff4500; /* OrangeRed for delete */
+       color: white;
+     }
+     
+     .delete-button:hover {
+       background-color: #e03c00; /* Darker red on hover */
+     }
+     

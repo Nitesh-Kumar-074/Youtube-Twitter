@@ -1,0 +1,63 @@
+/* Container for the Tweet Overview */
+.tweet-container {
+       background-color: #f0f8ff; /* Light pastel blue background */
+       border: 2px solid #4b0082; /* Indigo border */
+       border-radius: 15px;
+       margin: 30px;
+       padding: 20px;
+       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+       transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+       font-family: 'Roboto', sans-serif; /* Modern font style */
+     }
+     
+     /* Hover effect for the container */
+     .tweet-container:hover {
+       transform: translateY(-5px);
+       box-shadow: 0 15px 30px rgba(14, 243, 232, 0.841)
+     }
+     
+     /* Tweet content styling */
+     .tweet-content {
+       font-size: 1.2rem;
+       color: #2f4f4f; /* Dark Slate Gray text */
+       margin-bottom: 15px;
+       line-height: 1.6;
+       font-family: 'Merriweather', serif; /* Elegant serif font for content */
+       word-wrap: break-word;
+     }
+     
+     /* Actions container (buttons) */
+     .tweet-actions {
+       display: flex;
+       gap: 15px;
+     }
+     
+     /* Button styling */
+     button {
+       padding: 10px 20px;
+       border: none;
+       border-radius: 8px;
+       font-size: 1rem;
+       cursor: pointer;
+       transition: background-color 0.3s ease;
+       font-family: 'Roboto', sans-serif; /* Modern font for buttons */
+     }
+     
+     .like-button {
+       background-color: #32cd32; /* Lime Green */
+       color: white;
+     }
+     
+     .like-button:hover {
+       background-color: #28a745; /* Darker green on hover */
+     }
+     
+     .delete-button {
+       background-color: #ff4500; /* OrangeRed */
+       color: white;
+     }
+     
+     .delete-button:hover {
+       background-color: #e03c00; /* Darker red on hover */
+     }
+     
